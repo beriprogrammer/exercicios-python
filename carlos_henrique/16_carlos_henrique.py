@@ -6,15 +6,17 @@ out1 = true or false
 out2 = false or true
 out3 = false or false
 
-print('\n',4*' ', 'OR truth table\n',4*' ',14*'-')
+print('\n',6*' ', 'OR truth table')
 
-print(28*'-')
-print(f'| true   OR  true  | {out}  |')
-print(28*'-')
-print(f'| true   OR  false | {out1}  |')
-print(28*'-')
-print(f'| false  OR  true  | {out2}  |')
-print(28*'-')
-print(f'| false  OR  false | {out3} |')
-print(28*'-')
+print(32*'-')
+print(f'|    A    |    B   |  A OR B   |')
+print(32*'-')
+print(f'|  true   |  true  |   {out}    |')
+print(32*'-')
+print(f'|  true   |  false |   {out1}    |')
+print(32*'-')
+print(f'|  false  |  true  |   {out2}    |')
+print(32*'-')
+print(f'|  false  |  false |   {out3}   |')
+print(32*'-')
 
