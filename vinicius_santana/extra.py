@@ -1,6 +1,3 @@
-
-from math import ceil 
-
 def calculcador (num1,num2,operador):
 
     if operador == "-":
