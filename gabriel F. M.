@@ -1,4 +1,0 @@
-numero1 float(input("Digite um número:"))
-numero2float(input("digite um numero:"))
-soma=numero1+numero2
-print("soma")
